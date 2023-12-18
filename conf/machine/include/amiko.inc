@@ -67,7 +67,7 @@ IMAGE_CMD_ubifs_prepend = " \
 	rm -Rf ${IMAGE_ROOTFS}/tmp/*; \
 	"
 
-MACHINE_FEATURES += "alsa usbhost wlan 3dtv switchoff osdposition hdmicec"
+MACHINE_FEATURES += "alsa usbhost wlan 3dtv switchoff osdposition"
 
 require conf/machine/include/tune-mips32.inc
 require conf/machine/include/amiko-wifi.inc
