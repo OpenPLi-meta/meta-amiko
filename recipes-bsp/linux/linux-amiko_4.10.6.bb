@@ -20,7 +20,7 @@ PKG_${KERNEL_PACKAGE_NAME}-image = "kernel-image"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI += "http://source.mynonpublic.com/entwopia/yh625tc/yh625tc-linux-${PV}-base-${SRCDATE}.tgz \
+SRC_URI += "http://downloads.openpli.org/archive/amiko/yh625tc-linux-${PV}-base-${SRCDATE}.tgz \
     file://defconfig \
     file://0001-add-dmx-source-timecode.patch \
     file://0002-nand-ecc-strength-and-bitflip.patch \
