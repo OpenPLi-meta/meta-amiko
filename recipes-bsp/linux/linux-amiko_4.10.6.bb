@@ -33,6 +33,7 @@ SRC_URI += "http://downloads.openpli.org/archive/amiko/yh625tc-linux-${PV}-base-
     file://0001-stv090x-optimized-TS-sync-control.patch \
     file://0001-revert-xhci-plat.patch \
     file://noforce_correct_pointer_usage.patch \
+    file://fix-never-be-null_outside-array-bounds-gcc-12.patch \
     "
 
 inherit kernel machine_kernel_pr
